@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Calculadora de Dano</title>
+</head>
+<body onload="iniciar()">  
+    <div class="calculadora-dano">
+            <div class="bloco">
+                <h1 class="titulo pula-linha">Calculadora de Dano</h1>
+            </div>
+
+            <div class="bloco">
+                <h2>Selecione um personagem</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento personagem" id="bb-8">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/bdbd4929238821.5681474dec85b.png" alt="Orc" width="200" height="200" />
+                    <p>BB-8</p>
+                </div>
+                
+                <div class="elemento personagem" id="poe-dameron">
+                    <img
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/979ee129238821.5681474dea1d9.png"
+                        alt="Feiticeira"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Poe Dameron</p>
+                </div>
+
+                <div class="elemento personagem" id="chewbacca">
+                    <img
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/58c49c29238821.5681474de7f0d.png"
+                        alt="Globin"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Chewbacca</p>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <h2>Selecione um vilão</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento vilao" id="stormtrooper">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/3aba9f29238821.5681474de00fd.png" alt="stormtrooper" width="200" height="200" />
+                    <p>Stormtrooper</p>
+                </div>
+
+                <div class="elemento vilao" id="general-hux">
+                    <img
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/b1829529238821.5681474ddea3a.png"
+                        alt="general-hux"
+                        width="200"
+                        height="200"
+                    />
+                    <p>General Hux</p>
+                </div>
+                
+                <div class="elemento vilao" id="kylo-ren">
+                    <img
+                        src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/40476d29238821.5681474de5dd0.png"
+                        alt="kylo-ren"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Kylo Ren</p>
+                </div>
+                
+            </div>
+
+            <div class="bloco">
+                <h2>Selecione uma arma</h2>
+            </div>
+
+            <div class="elementos-container">
+                <div class="elemento arma" id="luke-light">
+                    <img
+                        src="http://freevector.co/wp-content/uploads/2011/12/90347-lightsaber.png"
+                        alt="luke-light"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Luke Light Saber</p>
+                </div>
+                <div class="elemento arma" id="han-blaster">
+                    <img
+                        src="https://cdn2.iconfinder.com/data/icons/star-wars-6/24/Laser-gun-512.png"
+                        alt="han-blaster"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Han Solo Blaster</p>
+                </div>
+                <div class="elemento arma" id="anakin-light">
+                    <img
+                        src="https://th.bing.com/th/id/Re1b22b569b51ed18bbca8a3fc87b2d36?rik=8EszyVjaocMhJQ&riu=http%3a%2f%2ffreevector.co%2fwp-content%2fuploads%2f2013%2f09%2f90150-star-wars.png&ehk=9q65s74CaXrkvgz7EiaX5rboO5FQ3ynKaBB6bntriB4%3d&risl=&pid=ImgRaw"
+                        alt="anakin-light"
+                        width="200"
+                        height="200"
+                    />
+                    <p>Anakin Light Saber</p>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <button id="calcular" type="button"><a href="#dano">Calcular Dano</a></button>
+            </div>
+
+            <div class="bloco">
+                <span id="dano"></span>
+            </div>
+        </div>
+        <script src="../static/script.js"></script>
+</body>
+</html>
